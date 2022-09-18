@@ -1,0 +1,147 @@
+{
+    "asset": {
+        "version": "1.0",
+        "generator": "Open Asset Import Library (assimp v4.1.0)"
+    },
+    "accessors": {
+        "mesh_accessor": {
+            "bufferView": "mesh_view",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 3624,
+            "type": "VEC3",
+            "max": [
+                29.399999618530275,
+                11.899999618530274,
+                2.0
+            ],
+            "min": [
+                9.399999618530274,
+                -8.100000381469727,
+                -2.1935114857297989e-13
+            ]
+        },
+        "mesh_accessor_0": {
+            "bufferView": "mesh_view_0",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 3624,
+            "type": "VEC3",
+            "max": [
+                0.9999943971633911,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -0.9999885559082031,
+                -1.0,
+                -1.0
+            ]
+        },
+        "mesh_accessor_1": {
+            "bufferView": "mesh_view_1",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 4050,
+            "type": "SCALAR",
+            "max": [
+                3623.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    },
+    "buffers": {
+        "../../download/65x02kor8z6f/65x02kor8z6f": {
+            "byteLength": 95076,
+            "type": "arraybuffer",
+            "uri": "../../download/65x02kor8z6f/65x02kor8z6f.bin"
+        }
+    },
+    "bufferViews": {
+        "mesh_view": {
+            "buffer": "../../download/65x02kor8z6f/65x02kor8z6f",
+            "byteOffset": 0,
+            "byteLength": 43488,
+            "target": 34962
+        },
+        "mesh_view_0": {
+            "buffer": "../../download/65x02kor8z6f/65x02kor8z6f",
+            "byteOffset": 43488,
+            "byteLength": 43488,
+            "target": 34962
+        },
+        "mesh_view_1": {
+            "buffer": "../../download/65x02kor8z6f/65x02kor8z6f",
+            "byteOffset": 86976,
+            "byteLength": 8100,
+            "target": 34963
+        }
+    },
+    "materials": {
+        "DefaultMaterial": {
+            "values": {
+                "ambient": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "diffuse": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "specular": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 0.0
+            }
+        }
+    },
+    "meshes": {
+        "mesh": {
+            "name": "",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": "DefaultMaterial",
+                    "indices": "mesh_accessor_1",
+                    "attributes": {
+                        "POSITION": "mesh_accessor",
+                        "NORMAL": "mesh_accessor_0"
+                    }
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "<STL_BINARY>": {
+            "meshes": [
+                "mesh"
+            ]
+        }
+    },
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "<STL_BINARY>"
+            ]
+        }
+    },
+    "scene": "defaultScene"
+}
